@@ -1,9 +1,9 @@
 package Livraria.Livraria;
 
 public class Autor {
-    String nome;
-    String email;
-    String cpf;
+    private String nome;
+    private String email;
+    private String cpf;
 
     Autor(String nome, String email, String cpf){
         this.nome = nome;

@@ -4,13 +4,10 @@ import java.util.Scanner;
 
 public class Livro {
 
-    String nome;
-    String descricao;
-    double valor;
-    String isbn;
-    String nomeAutor;
-    String emailAutor;
-    String cpfAutor;
+    private String nome;
+    private String descricao;
+    private double valor;
+    private String isbn;
 
     Livro(String nome, String descricao, double valor, String isbn) {
         this.nome = nome;
@@ -30,4 +27,7 @@ public class Livro {
     }
 
 }
+
+//SETS
+
 
