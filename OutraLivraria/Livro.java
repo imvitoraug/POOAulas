@@ -36,4 +36,7 @@ public class Livro {
     }
 
 //GETS
+    public double getValor(double valores){
+        System.out.println("Só pra commitar");
+    }
 }
