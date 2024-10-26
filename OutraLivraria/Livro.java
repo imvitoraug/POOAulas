@@ -34,4 +34,6 @@ public class Livro {
     public double getValor(double valor){
         return valor;
     }
+
+//GETS
 }
